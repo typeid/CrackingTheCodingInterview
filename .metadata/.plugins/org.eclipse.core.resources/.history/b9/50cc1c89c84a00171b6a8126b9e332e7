@@ -11,8 +11,8 @@ public class Ex2 {
 		}
 		return new String(reversedChars);
 	}
-//	public static void main(String args[]) {
-//		String test = "tesla";
-//		System.out.println(reverseString(test));
-//	}
+	public static void main(String args[]) {
+		String test = "tesla";
+		System.out.println(reverseString(test));
+	}
 }
