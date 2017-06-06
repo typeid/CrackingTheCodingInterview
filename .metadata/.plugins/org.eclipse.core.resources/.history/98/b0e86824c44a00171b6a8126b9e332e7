@@ -1,0 +1,16 @@
+
+public class Ex2 {
+	static String reverseString(String base) {
+		int j = 0;
+		char[] reversedChars = new char[base.length()];
+		for (int i = base.length() ; i > 1; --i) {
+			reversedChars[j] = base.charAt(i);
+			++j;
+		}
+		return new String(reversedChars);
+	}
+	public static void main(String args[]) {
+		String test = "tesla";
+		System.out.println(reverseString(test));
+	}
+}

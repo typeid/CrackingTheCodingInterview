@@ -11,10 +11,10 @@ public class Ex1 {
 		
 		return true;
 	}
-	public static void main(String args[]) {
-		String test = "tesla";
-		if (uniqueCharacters(test)) {
-			System.out.println("Unique");
-		} else System.out.println("Not unique");
-	}
+//	public static void main(String args[]) {
+//		String test = "tesla";
+//		if (uniqueCharacters(test)) {
+//			System.out.println("Unique");
+//		} else System.out.println("Not unique");
+//	}
 }
