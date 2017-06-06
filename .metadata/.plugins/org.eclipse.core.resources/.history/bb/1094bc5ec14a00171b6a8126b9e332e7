@@ -1,9 +1,10 @@
 
 public class Ex1 {
 	static boolean uniqueCharacters(String a) {
-		for (int i=0; i < a.length(); ++i) {
-			for (int j=i + 1; j < a.length(); ++j) {
-				if (a.charAt(i) == a.charAt(j)) {
+		char[] copyString = a.toCharArray();
+		for (int i=0; i < a.toCharArray().length; ++i) {
+			for (int j=i + 1; j < a.toCharArray().length; ++j) {
+				if (copyString[i] == copyString[j]) {
 					return false;
 				}
 			}
@@ -12,7 +13,7 @@ public class Ex1 {
 		return true;
 	}
 	public static void main(String args[]) {
-		String test = "tesla";
+		String test = "teslae";
 		if (uniqueCharacters(test)) {
 			System.out.println("Unique");
 		} else System.out.println("Not unique");
