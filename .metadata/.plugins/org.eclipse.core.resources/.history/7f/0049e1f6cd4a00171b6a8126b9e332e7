@@ -18,8 +18,8 @@ public class Ex3 {
 		String test2 = "alset";
 		if (checkPermutation(test, test2)) {
 			System.out.println("Permutation");
-		} else {
+
+		} else
 			System.out.println("No permutation");
-		}
 	}
 }
